@@ -1,0 +1,29 @@
+.price{
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    transition: all .5s ease-in-out;
+}
+.price:focus{
+    border: 1px solid tomato;
+    color: #fff;
+    background-color: darkcyan;
+}
+
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

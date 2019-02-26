@@ -1,13 +1,13 @@
-.price{
-    height: 50px;
-    border-radius: 10px;
-    border-style: none;
-    transition: all .5s ease-in-out;
+.price {
+	height: 50px;
+	border-radius: 10px;
+	border-style: none;
+	transition: all .5s ease-in-out;
+	padding: 10px;
 }
-.price:focus{
-    border: 1px solid tomato;
-    color: #fff;
-    background-color: darkcyan;
+
+.price:focus {
+	border: 1px solid darkcyan;
 }
 
 
@@ -23,6 +23,7 @@
 	0% {
 		opacity: 0;
 	}
+
 	100% {
 		opacity: 1;
 	}
